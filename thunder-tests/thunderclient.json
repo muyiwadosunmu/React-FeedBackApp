@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "66bdd24d-c9b8-442f-8324-6ff0e0b7aa8c",
+    "colId": "d16ccee0-e7cc-4f25-be15-22cf5838e295",
+    "containerId": "",
+    "name": "Get Feedbacks",
+    "url": "http://localhost:5000/feedback",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-04-14T12:46:23.104Z",
+    "modified": "2023-04-14T12:46:23.104Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cda113b8-4cb8-4fd8-b6bc-c6079c61a81e",
+    "colId": "d16ccee0-e7cc-4f25-be15-22cf5838e295",
+    "containerId": "",
+    "name": "Add Feedback",
+    "url": "http://localhost:5000/feedback",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-04-14T12:47:03.387Z",
+    "modified": "2023-04-14T12:48:55.230Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"rating\":9,\n  \"text\":\"New feedback from Backend\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7efdf0c8-e1fd-4166-a34a-d03a88dbca9f",
+    "colId": "d16ccee0-e7cc-4f25-be15-22cf5838e295",
+    "containerId": "",
+    "name": "Delete Feedback",
+    "url": "http://localhost:5000/feedback/4",
+    "method": "DELETE",
+    "sortNum": 30000,
+    "created": "2023-04-14T12:50:03.572Z",
+    "modified": "2023-04-14T12:51:40.053Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
